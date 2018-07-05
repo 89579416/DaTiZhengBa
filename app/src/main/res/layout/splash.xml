@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.hanswer.activity.SplashActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/lezhou"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        />
+
+</RelativeLayout>
+
